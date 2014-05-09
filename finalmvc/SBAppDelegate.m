@@ -7,11 +7,19 @@
 //
 
 #import "SBAppDelegate.h"
+#import "SBFirstViewViewController.h"
 
 @implementation SBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    SBFirstViewViewController *firstView=[[SBFirstViewViewController alloc]initWithNibName:@"SBFirstViewViewController" bundle:nil];
+    
+    UINavigationController *navigationcontroller=[[UINavigationController alloc]initWithRootViewController:firstView];
+    self.window.rootViewController=navigationcontroller;
+    
+
     // Override point for customization after application launch.
     return YES;
 }

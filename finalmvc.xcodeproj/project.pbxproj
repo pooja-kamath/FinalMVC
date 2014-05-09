@@ -21,6 +21,14 @@
 		78D7DDD4191CEF4700F7948C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D7DDB6191CEF4700F7948C /* UIKit.framework */; };
 		78D7DDDC191CEF4700F7948C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78D7DDDA191CEF4700F7948C /* InfoPlist.strings */; };
 		78D7DDDE191CEF4700F7948C /* finalmvcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7DDDD191CEF4700F7948C /* finalmvcTests.m */; };
+		78D7DDE9191CEF7B00F7948C /* SBstudentmanagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7DDE8191CEF7B00F7948C /* SBstudentmanagerViewController.m */; };
+		78D7DDF5191CEFCC00F7948C /* SBFirstViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7DDED191CEFCC00F7948C /* SBFirstViewViewController.m */; };
+		78D7DDF6191CEFCC00F7948C /* SBFirstViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D7DDEE191CEFCC00F7948C /* SBFirstViewViewController.xib */; };
+		78D7DDF7191CEFCC00F7948C /* SBstudentlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7DDF0191CEFCC00F7948C /* SBstudentlistViewController.m */; };
+		78D7DDF8191CEFCC00F7948C /* SBstudentlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D7DDF1191CEFCC00F7948C /* SBstudentlistViewController.xib */; };
+		78D7DDF9191CEFCC00F7948C /* SBentryFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7DDF3191CEFCC00F7948C /* SBentryFormViewController.m */; };
+		78D7DDFA191CEFCC00F7948C /* SBentryFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D7DDF4191CEFCC00F7948C /* SBentryFormViewController.xib */; };
+		78D7DDFE191CEFE300F7948C /* SBStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7DDFD191CEFE300F7948C /* SBStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,19 @@
 		78D7DDD9191CEF4700F7948C /* finalmvcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "finalmvcTests-Info.plist"; sourceTree = "<group>"; };
 		78D7DDDB191CEF4700F7948C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78D7DDDD191CEF4700F7948C /* finalmvcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = finalmvcTests.m; sourceTree = "<group>"; };
+		78D7DDE7191CEF7B00F7948C /* SBstudentmanagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBstudentmanagerViewController.h; path = finalmvc/SBstudentmanagerViewController.h; sourceTree = "<group>"; };
+		78D7DDE8191CEF7B00F7948C /* SBstudentmanagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBstudentmanagerViewController.m; path = finalmvc/SBstudentmanagerViewController.m; sourceTree = "<group>"; };
+		78D7DDEC191CEFCC00F7948C /* SBFirstViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBFirstViewViewController.h; sourceTree = "<group>"; };
+		78D7DDED191CEFCC00F7948C /* SBFirstViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBFirstViewViewController.m; sourceTree = "<group>"; };
+		78D7DDEE191CEFCC00F7948C /* SBFirstViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBFirstViewViewController.xib; sourceTree = "<group>"; };
+		78D7DDEF191CEFCC00F7948C /* SBstudentlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBstudentlistViewController.h; sourceTree = "<group>"; };
+		78D7DDF0191CEFCC00F7948C /* SBstudentlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBstudentlistViewController.m; sourceTree = "<group>"; };
+		78D7DDF1191CEFCC00F7948C /* SBstudentlistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBstudentlistViewController.xib; sourceTree = "<group>"; };
+		78D7DDF2191CEFCC00F7948C /* SBentryFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBentryFormViewController.h; sourceTree = "<group>"; };
+		78D7DDF3191CEFCC00F7948C /* SBentryFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBentryFormViewController.m; sourceTree = "<group>"; };
+		78D7DDF4191CEFCC00F7948C /* SBentryFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBentryFormViewController.xib; sourceTree = "<group>"; };
+		78D7DDFC191CEFE300F7948C /* SBStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBStudent.h; sourceTree = "<group>"; };
+		78D7DDFD191CEFE300F7948C /* SBStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +133,9 @@
 		78D7DDB8191CEF4700F7948C /* finalmvc */ = {
 			isa = PBXGroup;
 			children = (
+				78D7DDFB191CEFD500F7948C /* model */,
+				78D7DDEB191CEFAB00F7948C /* view */,
+				78D7DDEA191CEF9300F7948C /* controller */,
 				78D7DDC1191CEF4700F7948C /* SBAppDelegate.h */,
 				78D7DDC2191CEF4700F7948C /* SBAppDelegate.m */,
 				78D7DDC4191CEF4700F7948C /* Main.storyboard */,
@@ -150,6 +174,43 @@
 				78D7DDDA191CEF4700F7948C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78D7DDEA191CEF9300F7948C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				78D7DDE7191CEF7B00F7948C /* SBstudentmanagerViewController.h */,
+				78D7DDE8191CEF7B00F7948C /* SBstudentmanagerViewController.m */,
+			);
+			name = controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		78D7DDEB191CEFAB00F7948C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				78D7DDEC191CEFCC00F7948C /* SBFirstViewViewController.h */,
+				78D7DDED191CEFCC00F7948C /* SBFirstViewViewController.m */,
+				78D7DDEE191CEFCC00F7948C /* SBFirstViewViewController.xib */,
+				78D7DDEF191CEFCC00F7948C /* SBstudentlistViewController.h */,
+				78D7DDF0191CEFCC00F7948C /* SBstudentlistViewController.m */,
+				78D7DDF1191CEFCC00F7948C /* SBstudentlistViewController.xib */,
+				78D7DDF2191CEFCC00F7948C /* SBentryFormViewController.h */,
+				78D7DDF3191CEFCC00F7948C /* SBentryFormViewController.m */,
+				78D7DDF4191CEFCC00F7948C /* SBentryFormViewController.xib */,
+			);
+			name = view;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		78D7DDFB191CEFD500F7948C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				78D7DDFC191CEFE300F7948C /* SBStudent.h */,
+				78D7DDFD191CEFE300F7948C /* SBStudent.m */,
+			);
+			name = model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D7DDFA191CEFCC00F7948C /* SBentryFormViewController.xib in Resources */,
 				78D7DDCB191CEF4700F7948C /* Images.xcassets in Resources */,
+				78D7DDF8191CEFCC00F7948C /* SBstudentlistViewController.xib in Resources */,
+				78D7DDF6191CEFCC00F7948C /* SBFirstViewViewController.xib in Resources */,
 				78D7DDBD191CEF4700F7948C /* InfoPlist.strings in Resources */,
 				78D7DDC6191CEF4700F7948C /* Main.storyboard in Resources */,
 			);
@@ -252,7 +316,12 @@
 			files = (
 				78D7DDBF191CEF4700F7948C /* main.m in Sources */,
 				78D7DDC9191CEF4700F7948C /* SBViewController.m in Sources */,
+				78D7DDFE191CEFE300F7948C /* SBStudent.m in Sources */,
+				78D7DDF5191CEFCC00F7948C /* SBFirstViewViewController.m in Sources */,
+				78D7DDF9191CEFCC00F7948C /* SBentryFormViewController.m in Sources */,
+				78D7DDE9191CEF7B00F7948C /* SBstudentmanagerViewController.m in Sources */,
 				78D7DDC3191CEF4700F7948C /* SBAppDelegate.m in Sources */,
+				78D7DDF7191CEFCC00F7948C /* SBstudentlistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
